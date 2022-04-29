@@ -1,0 +1,52 @@
+
+
+
+@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 1280px) {}
+@media only screen and (min-width: 1920px) {}
+@media only screen and (min-width: 2560px) {}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    /* background: ${({ theme }) => theme.default.headers}; */
+    font-family: 'Arial';
+    /*text-align: center;*/
+    margin: 0;
+}
+
+.container, .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.content{
+    text-align: unset;
+}   
+
+
+ {
+}
+
+  h1,  p {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+/* body copy */  
+ .bodyCopy{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: 0.62px;
+ }
+
+
